@@ -60,3 +60,66 @@ console.log(listPrice *(100-discountPercentage)/100 )
 radius = 50 
 let Area = parseInt(Math.PI * radius**2)
 console.log(`The are of a circle with the radius ${radius} is ${Area} squre meters`)
+
+/*
+//coditional statements
+age = 15
+let message
+
+if (age>=18){
+    message = `You are old enough`
+}else{
+    message = `You are not old enough`
+}
+console.log(message)
+let login = true
+
+if(login==true){
+    console.log('Allowed')
+}else{
+    console.log("Not logged in")
+}
+////'////////////////////////////////////////////
+//else is statements
+age =20
+if (age>=18){
+    console.log("Can apply for drivers")
+} else if(age>=16){
+    console.log("Can apply for learners")
+} else{
+    console.log("Too young")
+}
+///////////////////////////
+nested if statements
+let age =19
+let percentage =69
+
+if (age>18){
+    if (percentage>70){
+    console.log("You are qualify")
+    } else{
+        console.log("You are older than 18 but you dont qualify")
+    }
+}else{
+    console.log("You are not qualified your age is <18")
+}
+*/
+//switch statement
+let day = 1
+switch(day){
+    case 1: console.log("Monday")
+    break
+    case 2: console.log("Tuesday")
+    break
+    case 3: console.log("Wednesday")
+    break
+    case 4: console.log("Thursday")
+    break
+    case 5: console.log("Friday")
+    break
+    case 6: console.log("Saturday")
+    break
+    case 7: console.log("Sunday")
+    break
+
+}
