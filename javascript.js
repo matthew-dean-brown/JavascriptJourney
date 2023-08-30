@@ -103,7 +103,7 @@ if (age>18){
 }else{
     console.log("You are not qualified your age is <18")
 }
-*/
+/////////////////////////////////////////
 //switch statement
 let day = 1
 switch(day){
@@ -122,4 +122,38 @@ switch(day){
     case 7: console.log("Sunday")
     break
 
+}
+*/
+// For loops
+for (let i=0; i<5;i++){
+    console.log("Hello world "+ i)
+}
+
+height = 172
+
+if (height >= 175){
+    console.log("You qualify to apply")
+} else{
+    console.log("You are not qualified to apply")
+}
+
+let highSchoolMark = 70
+let ExamMark =80
+let age =20
+if (highSchoolMark>=50){
+    if (ExamMark >=70){
+        if (age>=18){
+            console.log("You qualify to a commertial pilot license")
+            if (age ==17){
+                console.log("You qualify to get a private jet license")
+            }else if (age ==16){
+                console.log("You qualify to apply for a student pilot license")
+            }else{
+                console.log("You arent old enough")
+            } 
+        }
+    } else{ 
+        console.log("You dont have a high enough highschool mark")
+    }
+    console.log("High school mark Were not high enough")
 }
