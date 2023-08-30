@@ -1,4 +1,3 @@
-<<<<<<< master
 /* 
 var variable = "Any value I've set";
 
