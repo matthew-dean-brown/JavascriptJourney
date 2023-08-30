@@ -157,28 +157,6 @@ if (highSchoolMark>=50){
     }
     console.log("High school mark Were not high enough")
 }
-// var variable = "Any value I've set";
-
-// //array
-// var array = [1,2,3,4,5,6,7,8,9,10]
-
-// console.log(2*4)
-
-// let meme = ("Meme")
-
-// let marks = 20
-// let score = 40.56
-// let temp = -5.5
-// console.log(temp)
-
-// //learning +, -, x, /divide
-// let phy = 78
-// let maths = 72
-// let chem = 89
-// let avg = (phy+chem+maths)/3
-
-// console.log(avg)
-
 // //learning built in maths functions
 // let id = Math.random()*10
 // let new_id = Math.round(id)
@@ -211,12 +189,6 @@ if (highSchoolMark>=50){
 // console.log(array_names[1])
 
 
-
-var Matthew = "Mathematics is my favourite subject"
-
-var num1 = 3   
-var num2 = 6
-console.log(num1 / num2*num1)
 // //coding challenge// printing multiples of number using while, do while, and forr loop
 // let num3 = 1
 // let num7 = 1
@@ -234,7 +206,7 @@ console.log(num1 / num2*num1)
 //     console.log(`9 x ${x} = ${x*9}`)
 // }
 
-// //coding challenge
+// //coding challenge remove odd numbers from array
 // //array of random numbers
 // var array = [20,21,22,23,24,25,26,27,28,29]
 
