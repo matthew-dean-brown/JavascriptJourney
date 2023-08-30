@@ -157,7 +157,6 @@ if (highSchoolMark>=50){
     }
     console.log("High school mark Were not high enough")
 }
-=======
 // var variable = "Any value I've set";
 
 // //array
