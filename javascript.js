@@ -217,3 +217,123 @@ var Matthew = "Mathematics is my favourite subject"
 var num1 = 3   
 var num2 = 6
 console.log(num1 / num2*num1)
+// //coding challenge// printing multiples of number using while, do while, and forr loop
+// let num3 = 1
+// let num7 = 1
+
+// while(num3<11){
+//     console.log(`3 x ${num3} = ${3*num3}`)
+//     num3++
+// }
+// do{
+//     console.log(`7 x ${num7} = ${7*num7}`)
+//     num7 ++
+// } while(num7< 11)
+
+// for (let x=1; x<11;x++){
+//     console.log(`9 x ${x} = ${x*9}`)
+// }
+
+// //coding challenge
+// //array of random numbers
+// var array = [20,21,22,23,24,25,26,27,28,29]
+
+// //checks if numbers are odd then removes them from the array
+// for(let i =0;i<array.length;i++){
+//     if (array[i] % 2 != 0 ){
+//            array.splice(i,1)
+//     } else{
+//         continue
+//     }
+// }
+// //prints the array which only has even numbers
+// console.log(array)
+
+//spread operator joining array at specific locations 
+// let fruits = ['apple','mango','Banana','peach']
+// let allFruits = ['pinapple',...fruits,'guava']
+
+// console.log(allFruits)
+
+
+//using for of loop
+// let fruits = ['apple','mango','Banana','peach']
+
+// for(let fruit of fruits){
+//     console.log(fruit)
+// }
+
+
+// let fruits = ['apple','mango','banana','peach']
+// //adds to the end of array .push('item to be added')
+// // fruits.push('orange')
+// // fruits.push('watermelon')
+// // //removes item at the end of array 
+// // fruits.pop()
+// // let poppedFruit = fruits.pop()
+// // //removes item from beginning of array
+// // let shifted = fruits.shift()
+
+// // //adss to beginning of array
+// // fruits.unshift('watermelon')
+
+// //removes element at specific position in array
+// fruits.splice(fruits.indexOf('banana'),1)
+// console.log(fruits)
+
+//concat method
+// let foodPrices = [1,2,3,4,5]
+// let suppliesPrices = [6,7,8,9]
+
+// let allPrices = foodPrices.concat(suppliesPrices)
+
+// let names = ['John','Tom','Harry']
+// let numbers = [1,2,3,4]
+// let bool = [true, false]
+// let all = names.concat(numbers).concat(bool)
+// console.log(all)
+
+//reverse() and join()
+// let names = ['John','Tom','Harry']
+// names = names.join('')
+
+
+// let names = 'John'
+// //split() makes value into an array at specified point
+// names = names.split('')
+// //reverse() reverses the order of the split values
+// names.reverse()
+// //join() removes  ',' and changes it from array to specified string
+// names = names.join('')
+// names = names.split('').reverse().join('')
+// console.log(names)
+
+//oject literal
+var student = {
+    name:'John',
+    score: 89,
+    contact: '0213456789'
+}
+
+let petrolEngine ={
+    capacity:2000,
+    bhp:299,
+    torque:450
+}
+
+let car = {
+    name:'ABC',
+    price:40000,
+    engine:petrolEngine
+}
+//changing values in objects
+// student.score = 99
+// student["name"] = 'Rob'
+
+console.log(delete student.address)
+if (student.score){
+    console.log(student.score)
+} else{
+    console.log('Property does not exist')
+}
+
