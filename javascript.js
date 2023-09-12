@@ -44,7 +44,7 @@ parseInt(salary)+100
 //parseFloat() for decimals
 console.log(parseInt(salary)+100)
 */
-
+/*
 // coding challenge: Discount price
 let listPrice
 let discountPercentage 
@@ -60,7 +60,7 @@ console.log(listPrice *(100-discountPercentage)/100 )
 radius = 50 
 let Area = parseInt(Math.PI * radius**2)
 console.log(`The are of a circle with the radius ${radius} is ${Area} squre meters`)
-
+*/
 /*
 //coditional statements
 age = 15
@@ -80,7 +80,7 @@ if(login==true){
     console.log("Not logged in")
 }
 ////'////////////////////////////////////////////
-//else is statements
+//else if statements
 age =20
 if (age>=18){
     console.log("Can apply for drivers")
@@ -90,104 +90,43 @@ if (age>=18){
     console.log("Too young")
 }
 ///////////////////////////
-nested if statements
-let age =19
-let percentage =69
 
-if (age>18){
-    if (percentage>70){
-    console.log("You are qualify")
-    } else{
-        console.log("You are older than 18 but you dont qualify")
-    }
-}else{
-    console.log("You are not qualified your age is <18")
-}
-/////////////////////////////////////////
-//switch statement
-let day = 1
-switch(day){
-    case 1: console.log("Monday")
-    break
-    case 2: console.log("Tuesday")
-    break
-    case 3: console.log("Wednesday")
-    break
-    case 4: console.log("Thursday")
-    break
-    case 5: console.log("Friday")
-    break
-    case 6: console.log("Saturday")
-    break
-    case 7: console.log("Sunday")
-    break
-
-}
 */
-// For loops
-for (let i=0; i<5;i++){
-    console.log("Hello world "+ i)
-}
 
-height = 172
+// let counter = 0
+// while (counter<5){
+//     console.log("Hello World " + counter)
+//     counter++
+// }
 
-if (height >= 175){
-    console.log("You qualify to apply")
-} else{
-    console.log("You are not qualified to apply")
-}
+// do{
+//     console.log("Hello Worlds")
+// } while(counter <5){
 
-let highSchoolMark = 70
-let ExamMark =80
-let age =20
-if (highSchoolMark>=50){
-    if (ExamMark >=70){
-        if (age>=18){
-            console.log("You qualify to a commertial pilot license")
-            if (age ==17){
-                console.log("You qualify to get a private jet license")
-            }else if (age ==16){
-                console.log("You qualify to apply for a student pilot license")
-            }else{
-                console.log("You arent old enough")
-            } 
-        }
-    } else{ 
-        console.log("You dont have a high enough highschool mark")
-    }
-    console.log("High school mark Were not high enough")
-}
-// //learning built in maths functions
-// let id = Math.random()*10
-// let new_id = Math.round(id)
-// console.log(new_id)
+// }
 
-// console.log(Math.max(100,200,100,250))
-// console.log(Math.min(100,200,100,250))
+// // coding challenge// nested conditional statements
 
-// let hello = "Hello"
-// let world = "world"
-// let name = "Matthew"
-// let last_name = "Brown"
-
-// //replcing string info with other text
-// var newName = name.replace("M", "f")
-// console.log(hello + ' ' + world )
-// console.log(name.length)
-// console.log(newName.toUpperCase() + ' ' + last_name )
-
-// let a = "computer"
-// //determining last indexing
-// console.log(a.length - 1)
-// //pulling certain string information from variable
-// console.log(a.substring(0,4))
-// console.log(a.slice(0,4))
-
-// let names ="John, Rob, Tim, Newton"
-// // seperates string into array
-// array_names = names.split(',')
-// console.log(array_names[1])
-
+// let highschoolMark = 60
+// let AviationMark = 70
+// let age = 15
+// if (highschoolMark>=50){
+//     if (AviationMark>=70){
+//         if(age>=18){
+//             console.log("You qualify for a commercial pilot license")
+//         } else if(age>=17){
+//             console.log("You qualify for a private pilot license")
+//         } else if (age>=16){
+//             console.log("You qualify for a student pilot license")
+//         } else {
+//             console.log("You are too young to qualify")
+//         }
+//     } else{
+//         console.log(`Your highschool mark was good, however the aviation exam mark was not higher than 70%`)
+//     }
+// } else {
+//     console.log("Your Highschool mark did not meet the minimum requirement, 50%")
+// }
 
 // //coding challenge// printing multiples of number using while, do while, and forr loop
 // let num3 = 1
@@ -206,7 +145,7 @@ if (highSchoolMark>=50){
 //     console.log(`9 x ${x} = ${x*9}`)
 // }
 
-// //coding challenge remove odd numbers from array
+// //coding challenge
 // //array of random numbers
 // var array = [20,21,22,23,24,25,26,27,28,29]
 
