@@ -249,6 +249,7 @@ let car = {
 //     console.log('Property does not exist')
 // }
 
+/*
 //serialising objects
 var student = {
     name: 'John',
@@ -259,3 +260,37 @@ var student = {
 let studentString = JSON.stringify(student)
 //changing information from string to object so we can manipulate
 console.log(JSON.parse(studentString))
+*/
+
+// functions
+function welcomeUser(name, number) {
+    console.log(`Hello ${name}, welcome to the website`)
+    console.log(`You are visitor number ${number}`)
+}
+
+welcomeUser("John", 1)
+welcomeUser("Jake", 2)
+
+//area of a circle in a function
+function areaOfCircle(radius) {
+    let area = Math.PI * radius ** 2
+    console.log(area)
+}
+
+areaOfCircle(10)
+areaOfCircle(20)
+
+
+function totalMarks(phy, chem, math) {
+    let total = phy + chem + math
+    return total
+}
+//could also call total marks right inside to console
+
+function percentage(total) {
+    let per = total / 600 * 100
+    console.log(per)
+}
+
+// let result = totalMarks(150, 140, 190)
+percentage(totalMarks(150, 140, 190))
