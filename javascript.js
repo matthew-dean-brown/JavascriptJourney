@@ -220,31 +220,42 @@ if (age>=18){
 // console.log(names)
 
 //oject literal
-var student = {
-    name:'John',
-    score: 89,
-    contact: '0213456789'
-}
+// var student = {
+//     name:'John',
+//     score: 89,
+//     contact: '0213456789'
+// }
 
-let petrolEngine ={
-    capacity:2000,
-    bhp:299,
-    torque:450
+let petrolEngine = {
+    capacity: 2000,
+    bhp: 299,
+    torque: 450
 }
 
 let car = {
-    name:'ABC',
-    price:40000,
-    engine:petrolEngine
+    name: 'ABC',
+    price: 40000,
+    engine: petrolEngine
 }
 //changing values in objects
 // student.score = 99
 // student["name"] = 'Rob'
 
-console.log(delete student.address)
-if (student.score){
-    console.log(student.score)
-} else{
-    console.log('Property does not exist')
-}
+//returning a value of true even deleting property in object
+// console.log(delete student.address)
+// if (student.score) {
+//     console.log(student.score)
+// } else {
+//     console.log('Property does not exist')
+// }
 
+//serialising objects
+var student = {
+    name: 'John',
+    score: 89,
+    contact: '0213456789'
+}
+// changes object into a sting, storing info in database
+let studentString = JSON.stringify(student)
+//changing information from string to object so we can manipulate
+console.log(JSON.parse(studentString))
