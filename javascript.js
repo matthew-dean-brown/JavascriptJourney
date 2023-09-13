@@ -295,5 +295,3 @@ function percentage(total) {
 
 // let result = totalMarks(150, 140, 190)
 percentage(totalMarks(150, 140, 190))
-=======
->>>>>>> master
