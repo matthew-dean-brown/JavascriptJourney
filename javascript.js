@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* 
 var variable = "Any value I've set";
 
@@ -295,3 +295,26 @@ function percentage(total) {
 
 // let result = totalMarks(150, 140, 190)
 percentage(totalMarks(150, 140, 190))
+
+//function expression-- function thats assigned to variable
+let heyThere = function () {
+    console.log('hey there')
+}
+let sum = function (a, b) {
+    return a + b
+}
+let result = sum(10, 20)
+console.log(result)
+
+//arrow functions, always use const when making arrow or essprion function
+const hello = () => {
+    console.log('hello there')
+}
+hello()
+
+//when making use of compact arrow functions, you are
+//able to write them without curly braces
+const hi = () => "hi there"
+const add = (a, b) => a + b
+
+console.log(add(10, 20))
