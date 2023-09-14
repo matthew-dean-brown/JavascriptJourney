@@ -316,5 +316,9 @@ hello()
 //able to write them without curly braces
 const hi = () => "hi there"
 const add = (a, b) => a + b
+//taking it a step further
+//if no parameters use brackets
+const displayPi = a => 3.14
 
-console.log(add(10, 20))
+const area = r => 3.14 * r ** 2
+console.log(area(5))
