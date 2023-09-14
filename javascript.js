@@ -349,3 +349,19 @@ var student = {
     }
 }
 student.sayHi()
+
+//////////////////////////////////////////////////////////////
+//hoisting--allows calling the function before its made
+displayName()
+function displayName() {
+    console.log('John')
+}
+//////// only works with function declaration and not initialisation so NOT console.log(cat), var cat, cat=10
+cat = 10
+console.log(cat)
+var cat
+/////////doesn't work with function expressions
+sayHi()//doesnt work
+let sayHi = function () {
+    console.log(sayHi)
+}
