@@ -344,7 +344,8 @@ var student = {
     marks: 90,
     //function is now a method 'sayHi()' of student
     sayHi: function () {
-        console.log('Hi there')
+        //use this keyword to access info inside object
+        console.log('Hi there ' + this.name)
     }
 }
 student.sayHi()
