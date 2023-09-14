@@ -322,3 +322,11 @@ const displayPi = a => 3.14
 
 const area = r => 3.14 * r ** 2
 console.log(area(5))
+
+//nested functions functionsd inside other functions
+function calculateAverage(a, b, c) {
+    const calculateTotal = (a, b, c) => a + b + c
+    return calculateTotal(a, b, c) / 3
+}
+
+console.log(calculateAverage(10, 20, 30))
