@@ -1,5 +1,5 @@
 
-/* 
+/*
 var variable = "Any value I've set";
 
 var array = [1,2,3,4,5,6,7,8,9,10]
@@ -48,7 +48,7 @@ console.log(parseInt(salary)+100)
 /*
 // coding challenge: Discount price
 let listPrice
-let discountPercentage 
+let discountPercentage
 
 listPrice = 200
 discountPercentage = 10
@@ -58,7 +58,7 @@ console.log(listPrice *(100-discountPercentage)/100 )
 
  //Area of a circle
 
-radius = 50 
+radius = 50
 let Area = parseInt(Math.PI * radius**2)
 console.log(`The are of a circle with the radius ${radius} is ${Area} squre meters`)
 */
@@ -90,7 +90,7 @@ if (age>=18){
 } else{
     console.log("Too young")
 }
-///////////////////////////
+///////////////////////////////////////////////////////
 
 */
 
@@ -161,7 +161,7 @@ if (age>=18){
 // //prints the array which only has even numbers
 // console.log(array)
 
-//spread operator joining array at specific locations 
+//spread operator joining array at specific locations
 // let fruits = ['apple','mango','Banana','peach']
 // let allFruits = ['pinapple',...fruits,'guava']
 
@@ -175,12 +175,12 @@ if (age>=18){
 //     console.log(fruit)
 // }
 
-
+//////////////////////////////////////////////////////////////////////////////////////
 // let fruits = ['apple','mango','banana','peach']
 // //adds to the end of array .push('item to be added')
 // // fruits.push('orange')
 // // fruits.push('watermelon')
-// // //removes item at the end of array 
+// // //removes item at the end of array
 // // fruits.pop()
 // // let poppedFruit = fruits.pop()
 // // //removes item from beginning of array
@@ -205,6 +205,7 @@ if (age>=18){
 // let all = names.concat(numbers).concat(bool)
 // console.log(all)
 
+////////////////////////////////////////////////////////////////////////////
 //reverse() and join()
 // let names = ['John','Tom','Harry']
 // names = names.join('')
@@ -220,13 +221,14 @@ if (age>=18){
 // names = names.split('').reverse().join('')
 // console.log(names)
 
+////////////////////////////////////////////////////////////////////////////////////////
 //oject literal
 // var student = {
 //     name:'John',
 //     score: 89,
 //     contact: '0213456789'
 // }
-
+/*
 let petrolEngine = {
     capacity: 2000,
     bhp: 299,
@@ -238,6 +240,7 @@ let car = {
     price: 40000,
     engine: petrolEngine
 }
+*/
 //changing values in objects
 // student.score = 99
 // student["name"] = 'Rob'
@@ -262,8 +265,9 @@ let studentString = JSON.stringify(student)
 //changing information from string to object so we can manipulate
 console.log(JSON.parse(studentString))
 */
-
+//////////////////////////////////////////////////////////////////////////////////
 // functions
+/*
 function welcomeUser(name, number) {
     console.log(`Hello ${name}, welcome to the website`)
     console.log(`You are visitor number ${number}`)
@@ -295,7 +299,7 @@ function percentage(total) {
 
 // let result = totalMarks(150, 140, 190)
 percentage(totalMarks(150, 140, 190))
-
+////////////////////////////////////////////////////////////////////////////////
 //function expression-- function thats assigned to variable
 let heyThere = function () {
     console.log('hey there')
@@ -305,7 +309,7 @@ let sum = function (a, b) {
 }
 let result = sum(10, 20)
 console.log(result)
-
+//////////////////////////////////////////////////////////////////////////////////////
 //arrow functions, always use const when making arrow or essprion function
 const hello = () => {
     console.log('hello there')
@@ -322,7 +326,7 @@ const displayPi = a => 3.14
 
 const area = r => 3.14 * r ** 2
 console.log(area(5))
-
+//////////////////////////////////////////////////////////////////////////
 //nested functions functionsd inside other functions
 function calculateAverage(a, b, c) {
     const calculateTotal = (a, b, c) => a + b + c
@@ -330,3 +334,17 @@ function calculateAverage(a, b, c) {
 }
 
 console.log(calculateAverage(10, 20, 30))
+*/
+
+//function---is on its own, not associated with any object
+//method--- is somnething associated with the property of an object
+//method
+var student = {
+    name: 'John',
+    marks: 90,
+    //function is now a method 'sayHi()' of student
+    sayHi: function () {
+        console.log('Hi there')
+    }
+}
+student.sayHi()
