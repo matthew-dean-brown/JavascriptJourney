@@ -361,7 +361,17 @@ cat = 10
 console.log(cat)
 var cat
 /////////doesn't work with function expressions
-sayHi()//doesnt work
+//sayHi()//doesnt work
 let sayHi = function () {
     console.log(sayHi)
 }
+////functions can be used as variables or properties
+//a=0, b=0 are default parameters, can also be any numbers
+function sum(a = 0, b = 0) {
+    console.log(a + b)
+}
+let math = {
+    add: sum
+}
+
+math.add()
