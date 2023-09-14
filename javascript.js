@@ -373,5 +373,21 @@ function sum(a = 0, b = 0) {
 let math = {
     add: sum
 }
-
 math.add()
+
+//////////////////////////////////////////////////////
+//function scope--cannot use variables that are declared inside that are outside
+function product() {
+    let price = 100
+    console.log(price)
+}
+
+//lexical scope--inner functionscan use outer function variables 
+function one() {
+    let a = 98
+    function two() {
+        console.log(a)
+    }
+    two()
+}
+one()
