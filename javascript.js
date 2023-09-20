@@ -391,3 +391,58 @@ function one() {
     two()
 }
 one()
+
+//callback fucntions -- functions passed through to other functions
+function hello() {
+    console.log('hello')
+}
+function twice(f) {
+    f()
+    f()
+}
+twice(hello)
+
+//coding challenge
+function BMI(w, h) {
+    bmi = w / h ** 2
+    console.log(bmi)
+}
+//arrow function version
+const BM = (w, h) => console.log(w / h ** 2)
+BMI(2, 2)
+
+function calculateTax(salary, percentage) {
+    taxAmount = salary * percentage / 100
+    return taxAmount
+}
+
+function calculateSalary(hoursWorked, rate, calculateTax) {
+    salaryEarned = hoursWorked * rate
+    const tax = calculateTax(salaryEarned, 30)
+    console.log(`Salary earned: R${salaryEarned}`)
+    console.log(`Tax calculated on earned salary R${taxAmount}`)
+    console.log(`Salary on hand after paying taxes :R${salaryEarned - tax}`)
+}
+calculateSalary(4, 1000, calculateTax)
+//////////////////////////////////////////////////////////////
+let balance = 1000
+let accountNumber = 1234567890
+
+const deposit = (amount) => {
+    let money = balance + amount
+    return balance = money
+}
+
+const withdraw = (amount) => {
+    if (balance >= amount) {
+        let money = balance - amount
+        balance = money
+        console.log(`Amount deducted:R${amount}`)
+        console.log(`Current amount:R${balance}`)
+    } else {
+        console.log('You have in sufficient funds')
+    }
+}
+
+withdraw(500)
+console.log(balance)
