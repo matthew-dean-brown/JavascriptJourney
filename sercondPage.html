@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Creen Tea</li>
+    </ul>
+    <script>
+        // innerHTML gives everything inside of tag(in HTML)
+        // innerText gives everything as text
+        // if you want to include spaces between text use textyContent
+        document.getElementsByTagName('ul')[0].innerText
+        document.getElementsByTagName('ul')[0].innerHTML = '<li><b>New list item</b></li>'
+        document.getElementsByTagName('ul')[0].innerText = '<li><b>New list item</b></li>'
+    </script>
+</body>
+</html>
