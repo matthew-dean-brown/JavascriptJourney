@@ -10,9 +10,9 @@ list.childNodes
 list.children
 
 // gets first tage using query selector
-let current = document.querySelector('li')
-// gets next sibling(next item in list)
-let nextSibling = current.nextElementSibling
+// let current = document.querySelector('li')
+// // gets next sibling(next item in list)
+// let nextSibling = current.nextElementSibling
 
 // loop prints out tags as long as nextSibling is true/exists
 // while(nextSibling){

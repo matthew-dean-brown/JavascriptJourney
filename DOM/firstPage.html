@@ -28,12 +28,13 @@
 		<li>Item3</li>
 		<li>Item4</li>
 	</ul>
-	<h1 id="heading">Webpage</h1>
+	<h1 id="heading" data-heading>Webpage</h1>
 	<h3>hello</h3>
 	<h3>This is a h3 tag</h3>
 	<h4 id="subHeading">This is our tagline</h4>
 	<p id="">This is some random text</p>
 	<p class="para">Class name tag</p>
+	<p class="para"> second Class name tag</p>
 	
 	
 	<h1>This is a heading</h1>
@@ -50,7 +51,9 @@
 	</ol>
 
 	
-	<script src="firstPage.js"></script>
+	<script src="firstPage.js">
+		document.getElementById('heading').textContent
+	</script>
 </body>
 
 </html>

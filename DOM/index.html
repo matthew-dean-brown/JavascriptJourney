@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation</title>
+</head>
+<body>
+    <div>
+        <label for="input">FirstNumber:</label>
+        <input type="number" data-firstNum>
+    </div>
+    <br>
+    <div>
+        <label for="">Second number:</label>
+        <input type="number" data-secondNum>
+    </div>
+    <br>
+    <button data-add>
+        Addition
+    </button><p data-answer></p>
+    <script>
+        let array = [1,'two', 3, 'four', 5]
+        let button = document.querySelector('[data-add]')
+        let p = document.querySelector('[data-answer]')
+        button.addEventListener( 'click', add)
+        function add() {
+            let first = document.querySelector('[data-firstNum]').value
+            let second = document.querySelector('[data-secondNum]').value
+            let answer = eval(`${first}+${second}`)
+            p.innerText = answer
+        }
+        
+    </script>
+</body>
+</html>
